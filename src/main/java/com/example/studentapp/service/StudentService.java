@@ -30,6 +30,7 @@ public class StudentService {
     }
 
     public Student getStudentById(Long id ) {
+        id++;
         return studentRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException("Öğrenci bulunamadı. ID: " + id));
     }
