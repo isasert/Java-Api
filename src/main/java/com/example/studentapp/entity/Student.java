@@ -24,6 +24,9 @@ public class Student {
     @Column(name = "student_number", unique = true, nullable = false)
     private String studentNumber;
 
+
+    private String phoneNumber;
+
     // JPA için parametresiz boş constructor şarttır
     public Student() {
     }
