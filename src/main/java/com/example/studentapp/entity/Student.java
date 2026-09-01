@@ -25,7 +25,7 @@ public class Student {
     private String studentNumber;
 
 
-    private String phoneNumber;
+
 
     // JPA için parametresiz boş constructor şarttır
     public Student() {
